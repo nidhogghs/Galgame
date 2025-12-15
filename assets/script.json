@@ -1,0 +1,21 @@
+[
+    { "type": "bg", "file": "classroom.jpg" },
+    { "type": "say", "name": "System", "text": "Welcome to the Galgame Framework Demo." },
+    { "type": "say", "name": "System", "text": "This demonstrates the core features: Text, Backgrounds, and Choices." },
+    { "type": "choice", "options": [
+        { "label": "Show me a choice", "jump": "choice_scene" },
+        { "label": "End demo", "jump": "end_scene" }
+    ]},
+    { "type": "label", "label": "choice_scene" },
+    { "type": "say", "name": "System", "text": "You selected the first option!" },
+    { "type": "say", "name": "System", "text": "The framework is modular and extensible." },
+    { "type": "choice", "options": [
+        { "label": "Restart", "jump": "start" },
+        { "label": "Finish", "jump": "end_scene" }
+    ]},
+    { "type": "label", "label": "end_scene" },
+    { "type": "say", "name": "System", "text": "Thank you for checking out the framework." },
+    { "type": "label", "label": "start" },
+    { "type": "bg", "file": "classroom.jpg" },
+    { "type": "say", "name": "System", "text": "Looping back to start..." }
+]

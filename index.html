@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galgame Framework</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="stage">
+            <div id="background-layer"></div>
+            <div id="character-layer"></div>
+            <div id="foreground-layer"></div>
+        </div>
+        
+        <div id="ui-layer">
+            <div id="dialogue-box" class="hidden">
+                <div id="name-tag"></div>
+                <div id="text-content"></div>
+                <div id="next-indicator">▼</div>
+            </div>
+            <div id="choice-menu" class="hidden"></div>
+            <div id="main-menu">
+                <h1>Galgame Engine</h1>
+                <button id="start-btn">Start Game</button>
+                <button id="load-btn">Load Game</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/core/Game.js"></script>
+</body>
+</html>

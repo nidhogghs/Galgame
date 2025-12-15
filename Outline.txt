@@ -1,0 +1,109 @@
+01 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=省实验中学的早上，总是安静得有点过分。
+02 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=教室里只有翻书声。
+03 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_normal | text=你果然已经坐好了。
+04 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=你也不算晚。
+05 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_happy  | text=因为我猜你在。
+06 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_shame  | text=这听起来不像夸人。
+07 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_talk   | text=但每次都对。
+08 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=今天有物理小测。
+09 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_shame  | text=所以我才来得这么早。
+10 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=临时准备没用。
+
+11 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_talk   | text=至少让我确认下公式。
+12 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=你抄了也记不住。
+13 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_normal | text=那你讲一句。
+14 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=磁通量变化会产生感应电动势。
+15 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_shame  | text=听起来就很难。
+16 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_happy  | text=中午我再慢慢讲。
+17 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_happy  | text=那我活下来了。
+18 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=老师快来了。
+19 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_talk   | text=省实验的老师脚步声都很重。
+20 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=专门用来提醒人的。
+
+21 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_normal | text=这节课你听得怎么样？
+22 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=还能跟上。
+23 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_talk   | text=那我就放心了。
+24 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=你刚才在发呆。
+25 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_shame  | text=被你发现了。
+26 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_talk   | text=我在想以后。
+27 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=以后离现在太远了。
+28 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_normal | text=但省实验的人都会想。
+29 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=我只想别掉队。
+30 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_happy  | text=那我陪你。
+
+31 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=中午的教室有点闷。
+32 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=不如去走廊。
+33 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=会被老师看见。
+34 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=现在没人管。
+35 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=你总是很乐观。
+36 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=不然会紧张。
+37 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=你也会紧张？
+38 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_shame  | text=当然。
+39 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_happy  | text=看不出来。
+40 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=因为你在旁边。
+
+41 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=你觉得我们会分开吗？
+42 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=迟早的事。
+43 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=说得真冷静。
+44 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=只是事实。
+45 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=那至少现在一起。
+46 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=嗯。
+47 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=这样就够了。
+48 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=该回去了。
+49 | scene=scene_Classroom | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=下午还有自习。
+50 | scene=scene_Classroom | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=走吧。
+
+51 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_normal | text=下午你还讲物理吗？
+52 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=看你听不听。
+53 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_happy  | text=那我认真点。
+54 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=你已经进步了。
+55 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_shame  | text=被你拉着走的。
+56 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=互相而已。
+57 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_talk   | text=省实验真的很累。
+58 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_normal | text=但也只有这里。
+59 | scene=scene_Classroom | bgm=bgm_1 | speaker=楚蒙牛 | sprite=N_normal | text=是啊。
+60 | scene=scene_Classroom | bgm=bgm_1 | speaker=一森窦 | sprite=D_talk   | text=所以继续。
+
+61 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=放学一起回宿舍？
+62 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=好。
+63 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=今天没下雨。
+64 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=难得。
+65 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=明天也早点？
+66 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=嗯。
+67 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=那就这么说定了。
+68 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=省实验的日子还长。
+69 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=至少不是一个人。
+70 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_happy  | text=嗯。
+
+71 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=有些话不用说。
+72 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=我懂。
+73 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=走吧。
+74 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=走。
+75 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=明天见。
+76 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=明天见。
+77 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=省实验中学。
+78 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=我们的学校。
+79 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=现在。
+80 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=此刻。
+
+81 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=已经够了。
+82 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=真的。
+83 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_happy  | text=嗯。
+84 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=回去吧。
+85 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=走。
+86 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=灯要关了。
+87 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=明天还会亮。
+88 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=那就好。
+89 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=故事还在继续。
+90 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=但不着急。
+
+91 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_talk   | text=晚安。
+92 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=晚安。
+93 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=省实验的夜。
+94 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_normal | text=很安静。
+95 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_happy  | text=适合记住。
+96 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=也适合放松。
+97 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_normal | text=明天继续。
+98 | scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_talk   | text=一起。
+99 | scene=scene_Dormitory | bgm=bgm_2 | speaker=一森窦 | sprite=D_happy  | text=嗯。
+100| scene=scene_Dormitory | bgm=bgm_2 | speaker=楚蒙牛 | sprite=N_happy  | text=走吧。
