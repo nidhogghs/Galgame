@@ -1,21 +1,1076 @@
 [
-    { "type": "bg", "file": "classroom.jpg" },
-    { "type": "say", "name": "System", "text": "Welcome to the Galgame Framework Demo." },
-    { "type": "say", "name": "System", "text": "This demonstrates the core features: Text, Backgrounds, and Choices." },
-    { "type": "choice", "options": [
-        { "label": "Show me a choice", "jump": "choice_scene" },
-        { "label": "End demo", "jump": "end_scene" }
-    ]},
-    { "type": "label", "label": "choice_scene" },
-    { "type": "say", "name": "System", "text": "You selected the first option!" },
-    { "type": "say", "name": "System", "text": "The framework is modular and extensible." },
-    { "type": "choice", "options": [
-        { "label": "Restart", "jump": "start" },
-        { "label": "Finish", "jump": "end_scene" }
-    ]},
-    { "type": "label", "label": "end_scene" },
-    { "type": "say", "name": "System", "text": "Thank you for checking out the framework." },
-    { "type": "label", "label": "start" },
-    { "type": "bg", "file": "classroom.jpg" },
-    { "type": "say", "name": "System", "text": "Looping back to start..." }
+  {
+    "type": "bg",
+    "file": "scene/scene_Classroom.png"
+  },
+  {
+    "type": "music",
+    "file": "bgm_1.mp3",
+    "action": "play"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "省实验中学的早上，总是安静得有点过分。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "教室里只有翻书声。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "你果然已经坐好了。"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "你也不算晚。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "因为我猜你在。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_shame.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "这听起来不像夸人。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "但每次都对。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "今天有物理小测。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_shame.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "所以我才来得这么早。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "临时准备没用。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "至少让我确认下公式。"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "你抄了也记不住。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那你讲一句。"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "磁通量变化会产生感应电动势。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_shame.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "听起来就很难。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_happy.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "中午我再慢慢讲。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那我活下来了。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "老师快来了。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "省实验的老师脚步声都很重。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "专门用来提醒人的。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "这节课你听得怎么样？"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "还能跟上。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那我就放心了。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "你刚才在发呆。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_shame.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "被你发现了。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "我在想以后。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "以后离现在太远了。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "但省实验的人都会想。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "我只想别掉队。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那我陪你。"
+  },
+  {
+    "type": "music",
+    "file": "bgm_2.mp3",
+    "action": "play"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "中午的教室有点闷。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "不如去走廊。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "会被老师看见。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "现在没人管。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "你总是很乐观。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "不然会紧张。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "你也会紧张？"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_shame.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "当然。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_happy.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "看不出来。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "因为你在旁边。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "你觉得我们会分开吗？"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "迟早的事。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "说得真冷静。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "只是事实。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那至少现在一起。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "嗯。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "这样就够了。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "该回去了。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "下午还有自习。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "走吧。"
+  },
+  {
+    "type": "music",
+    "file": "bgm_1.mp3",
+    "action": "play"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "下午你还讲物理吗？"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "看你听不听。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那我认真点。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "你已经进步了。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_shame.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "被你拉着走的。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "互相而已。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "省实验真的很累。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "但也只有这里。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "是啊。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "所以继续。"
+  },
+  {
+    "type": "bg",
+    "file": "scene/scene_Dormitory.png"
+  },
+  {
+    "type": "music",
+    "file": "bgm_2.mp3",
+    "action": "play"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "放学一起回宿舍？"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "好。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "今天没下雨。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "难得。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "明天也早点？"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "嗯。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那就这么说定了。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "省实验的日子还长。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "至少不是一个人。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_happy.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "嗯。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "有些话不用说。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "我懂。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "走吧。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "走。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "明天见。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "明天见。"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "省实验中学。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "我们的学校。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "现在。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "此刻。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "已经够了。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "真的。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_happy.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "嗯。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "回去吧。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "走。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "灯要关了。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "明天还会亮。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "那就好。"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "故事还在继续。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "但不着急。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_talk.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "晚安。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "晚安。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "省实验的夜。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_normal.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "很安静。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_happy.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "适合记住。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "也适合放松。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_normal.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "明天继续。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_talk.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "一起。"
+  },
+  {
+    "type": "char",
+    "name": "一森窦",
+    "file": "sprite/D_happy.png",
+    "pos": "left"
+  },
+  {
+    "type": "say",
+    "name": "一森窦",
+    "text": "嗯。"
+  },
+  {
+    "type": "char",
+    "name": "楚蒙牛",
+    "file": "sprite/N_happy.png",
+    "pos": "right"
+  },
+  {
+    "type": "say",
+    "name": "楚蒙牛",
+    "text": "走吧。"
+  }
 ]

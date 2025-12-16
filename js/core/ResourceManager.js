@@ -1,4 +1,6 @@
-export class ResourceManager {
+window.Galgame = window.Galgame || {};
+
+class ResourceManager {
     constructor() {
         this.images = new Map();
         this.audio = new Map();
@@ -13,7 +15,7 @@ export class ResourceManager {
                 this.images.set(key, img);
                 resolve(img);
             };
-            img.onerror = (e) => reject(new Error(`Failed to load image: ${url}`));
+            img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
             img.src = url;
         });
     }
@@ -23,9 +25,8 @@ export class ResourceManager {
 
         try {
             const response = await fetch(url);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const arrayBuffer = await response.arrayBuffer();
-            // We'll decode this in AudioManager, just store buffer here or decode if we have context
-            // For simplicity, let's return the buffer.
             this.audio.set(key, arrayBuffer);
             return arrayBuffer;
         } catch (e) {
@@ -41,3 +42,5 @@ export class ResourceManager {
         return this.audio.get(key);
     }
 }
+
+window.Galgame.ResourceManager = ResourceManager;

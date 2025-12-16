@@ -1,4 +1,6 @@
-export class ScriptParser {
+window.Galgame = window.Galgame || {};
+
+class ScriptParser {
     constructor() {
         this.script = [];
         this.currentIndex = 0;
@@ -31,3 +33,5 @@ export class ScriptParser {
         this.currentIndex = index;
     }
 }
+
+window.Galgame.ScriptParser = ScriptParser;

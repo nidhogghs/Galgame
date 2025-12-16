@@ -1,4 +1,6 @@
-export class ChoiceMenu {
+window.Galgame = window.Galgame || {};
+
+class ChoiceMenu {
     constructor() {
         this.container = document.getElementById('choice-menu');
     }
@@ -24,3 +26,5 @@ export class ChoiceMenu {
         this.container.innerHTML = '';
     }
 }
+
+window.Galgame.ChoiceMenu = ChoiceMenu;

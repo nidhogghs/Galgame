@@ -1,4 +1,6 @@
-export class GameState {
+window.Galgame = window.Galgame || {};
+
+class GameState {
     constructor() {
         this.flags = {};
         this.variables = {};
@@ -33,3 +35,5 @@ export class GameState {
         this.variables = data.variables || {};
     }
 }
+
+window.Galgame.GameState = GameState;

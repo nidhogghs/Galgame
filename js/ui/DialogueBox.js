@@ -1,4 +1,6 @@
-export class DialogueBox {
+window.Galgame = window.Galgame || {};
+
+class DialogueBox {
     constructor() {
         this.container = document.getElementById('dialogue-box');
         this.nameTag = document.getElementById('name-tag');
@@ -25,7 +27,7 @@ export class DialogueBox {
                 this.nextIndicator.style.display = 'block';
                 if (onComplete) onComplete();
             }
-        }, 30); // Typing speed
+        }, 30);
     }
 
     finishTyping(text) {
@@ -47,3 +49,5 @@ export class DialogueBox {
         return !this.container.classList.contains('hidden');
     }
 }
+
+window.Galgame.DialogueBox = DialogueBox;

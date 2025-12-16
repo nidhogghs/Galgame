@@ -1,4 +1,6 @@
-export class Stage {
+window.Galgame = window.Galgame || {};
+
+class Stage {
     constructor() {
         this.backgroundLayer = document.getElementById('background-layer');
         this.characterLayer = document.getElementById('character-layer');
@@ -25,12 +27,8 @@ export class Stage {
 
         charImg.src = image.src || image;
 
-        // Reset classes
         charImg.className = 'character';
         charImg.classList.add(position);
-
-        // Force reflow to restart transition if needed (optional)
-        // void charImg.offsetWidth; 
     }
 
     hideCharacter(name) {
@@ -41,9 +39,21 @@ export class Stage {
         }
     }
 
+    highlightCharacter(name) {
+        this.characters.forEach((img, charName) => {
+            if (charName === name) {
+                img.classList.add('active');
+            } else {
+                img.classList.remove('active');
+            }
+        });
+    }
+
     clear() {
         this.backgroundLayer.style.backgroundImage = '';
         this.characterLayer.innerHTML = '';
         this.characters.clear();
     }
 }
+
+window.Galgame.Stage = Stage;
