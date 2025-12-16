@@ -5,7 +5,7 @@
   },
   {
     "type": "music",
-    "file": "bgm_1.mp3",
+    "file": "bgm/bgm_1.mp3",
     "action": "play"
   },
   {
@@ -316,7 +316,7 @@
   },
   {
     "type": "music",
-    "file": "bgm_2.mp3",
+    "file": "bgm/bgm_2.mp3",
     "action": "play"
   },
   {
@@ -535,7 +535,7 @@
   },
   {
     "type": "music",
-    "file": "bgm_1.mp3",
+    "file": "bgm/bgm_1.mp3",
     "action": "play"
   },
   {
@@ -648,7 +648,7 @@
   },
   {
     "type": "music",
-    "file": "bgm_2.mp3",
+    "file": "bgm/bgm_2.mp3",
     "action": "play"
   },
   {

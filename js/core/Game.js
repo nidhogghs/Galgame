@@ -90,22 +90,28 @@
 
             let loadedScript = fallbackScript;
 
-            try {
-                console.log("Fetching script...");
-                const response = await fetch('assets/script.json');
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                const script = await response.json();
-                console.log("Script loaded:", script.length, "commands");
-                loadedScript = script;
-            } catch (e) {
-                console.error("Failed to load script:", e);
-                console.warn("Falling back to embedded demo script.");
-            } finally {
-                this.scriptParser.loadScript(loadedScript);
-                this.validateScript(loadedScript);
-                this.scriptLoaded = true;
-                this.setStartButtonState({ text: 'Start Game', disabled: false });
+            // Prefer inline scriptData (works on file://)
+            if (Array.isArray(window.GAL_SCRIPT) && window.GAL_SCRIPT.length) {
+                loadedScript = window.GAL_SCRIPT;
+                console.log("Loaded script from window.GAL_SCRIPT:", loadedScript.length, "commands");
+            } else {
+                try {
+                    console.log("Fetching script...");
+                    const response = await fetch('assets/script.json');
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    const script = await response.json();
+                    console.log("Script loaded:", script.length, "commands");
+                    loadedScript = script;
+                } catch (e) {
+                    console.error("Failed to load script via fetch:", e);
+                    console.warn("Falling back to embedded demo script.");
+                }
             }
+
+            this.scriptParser.loadScript(loadedScript);
+            this.validateScript(loadedScript);
+            this.scriptLoaded = true;
+            this.setStartButtonState({ text: 'Start Game', disabled: false });
         }
 
         validateScript(scriptData) {

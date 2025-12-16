@@ -3,6 +3,7 @@ const path = require('path');
 
 const outlinePath = path.join(__dirname, '../Outline.txt');
 const outputPath = path.join(__dirname, '../assets/script.json');
+const outputJsPath = path.join(__dirname, '../assets/scriptData.js');
 
 const rawData = fs.readFileSync(outlinePath, 'utf-8');
 const lines = rawData.split('\n').filter(line => line.trim() !== '');
@@ -10,7 +11,7 @@ const lines = rawData.split('\n').filter(line => line.trim() !== '');
 const script = [];
 let currentScene = '';
 let currentBgm = '';
-let currentSprites = {}; // name -> sprite file
+const currentSprites = {}; // name -> sprite file
 
 // Character mapping for positions
 const charPositions = {
@@ -43,7 +44,7 @@ lines.forEach(line => {
         currentBgm = data.bgm;
         script.push({
             type: 'music',
-            file: `${data.bgm}.mp3`,
+            file: `bgm/${data.bgm}.mp3`,
             action: 'play'
         });
     }
@@ -77,5 +78,11 @@ lines.forEach(line => {
     }
 });
 
-fs.writeFileSync(outputPath, JSON.stringify(script, null, 2));
+const jsonContent = JSON.stringify(script, null, 2);
+fs.writeFileSync(outputPath, jsonContent, 'utf-8');
+
+// Also emit a JS file for file:// runs where fetch to json is blocked.
+const jsContent = `// Auto-generated from Outline.txt\nwindow.GAL_SCRIPT = ${jsonContent};\n`;
+fs.writeFileSync(outputJsPath, jsContent, 'utf-8');
+
 console.log(`Converted ${lines.length} lines to ${script.length} commands.`);
